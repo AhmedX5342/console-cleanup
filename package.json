@@ -1,6 +1,6 @@
 {
   "name": "console-cleanup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove console.log and console.warn statements from JavaScript and TypeScript files.",
   "keywords": [
     "console",
