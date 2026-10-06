@@ -9,13 +9,13 @@
     "javascript",
     "typescript"
   ],
-  "homepage": "https://github.com/AhmedX5342/clean-console#readme",
+  "homepage": "https://github.com/AhmedX5342/console-cleanup#readme",
   "bugs": {
-    "url": "https://github.com/AhmedX5342/clean-console/issues"
+    "url": "https://github.com/AhmedX5342/console-cleanup/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmedX5342/clean-console.git"
+    "url": "git+https://github.com/AhmedX5342/console-cleanup.git"
   },
   "license": "ISC",
   "author": "Ahmed Elgharabawy",
