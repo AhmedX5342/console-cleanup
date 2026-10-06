@@ -1,0 +1,38 @@
+{
+  "name": "clean-console",
+  "version": "1.0.0",
+  "description": "Remove console.log and console.warn statements from JavaScript and TypeScript files.",
+  "keywords": [
+    "console",
+    "clean-console",
+    "cli",
+    "javascript",
+    "typescript"
+  ],
+  "homepage": "https://github.com/AhmedX5342/clean-console#readme",
+  "bugs": {
+    "url": "https://github.com/AhmedX5342/clean-console/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedX5342/clean-console.git"
+  },
+  "license": "ISC",
+  "author": "Ahmed Elgharabawy",
+  "type": "commonjs",
+  "main": "clean-console.cjs",
+  "bin": {
+    "clean-console": "./clean-console.cjs"
+  },
+  "files": [
+    "clean-console.cjs",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --check clean-console.cjs"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.26.0",
+    "@babel/traverse": "^7.26.0"
+  }
+}
