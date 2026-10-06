@@ -20,16 +20,16 @@
   "license": "ISC",
   "author": "Ahmed Elgharabawy",
   "type": "commonjs",
-  "main": "clean-console.cjs",
+  "main": "console-cleanup.cjs",
   "bin": {
-    "console-cleanup": "clean-console.cjs"
+    "console-cleanup": "console-cleanup.cjs"
   },
   "files": [
-    "clean-console.cjs",
+    "console-cleanup.cjs",
     "README.md"
   ],
   "scripts": {
-    "test": "node --check clean-console.cjs"
+    "test": "node --check console-cleanup.cjs"
   },
   "dependencies": {
     "@babel/parser": "^7.26.0",

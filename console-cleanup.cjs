@@ -2,13 +2,13 @@
 'use strict';
 
 /**
- * clean-console.js
+ * console-cleanup.js
  *
  * Removes `console.log(...)` and `console.warn(...)` statements (including
  * ones that span multiple lines) from one or more source files.
  *
  * Usage:
- *   node clean-console.cjs <file-or-name> [<file-or-name> ...]
+ *   node console-cleanup.cjs <file-or-name> [<file-or-name> ...]
  *
  * Each argument can be either:
  *   - A relative/absolute path to a file (e.g. src/hooks/testHook.ts)
@@ -232,7 +232,7 @@ function stripConsoleStatements(source, filePath) {
 function main() {
   const args = process.argv.slice(2);
   if (args.length === 0) {
-    console.error('Usage: node clean-console.cjs <file-or-name> [<file-or-name> ...]');
+    console.error('Usage: node console-cleanup.cjs <file-or-name> [<file-or-name> ...]');
     process.exit(1);
   }
 

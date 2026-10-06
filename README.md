@@ -17,7 +17,7 @@ npx console-cleanup <file-or-name> [<file-or-name> ...]
 You can also run it directly from the project root:
 
 ```bash
-node clean-console.cjs <file-or-name> [<file-or-name> ...]
+node console-cleanup.cjs <file-or-name> [<file-or-name> ...]
 ```
 
 Each argument can be:
