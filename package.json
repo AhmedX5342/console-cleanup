@@ -1,10 +1,10 @@
 {
-  "name": "clean-console",
+  "name": "console-cleanup",
   "version": "1.0.0",
   "description": "Remove console.log and console.warn statements from JavaScript and TypeScript files.",
   "keywords": [
     "console",
-    "clean-console",
+    "console-cleanup",
     "cli",
     "javascript",
     "typescript"
@@ -22,7 +22,7 @@
   "type": "commonjs",
   "main": "clean-console.cjs",
   "bin": {
-    "clean-console": "./clean-console.cjs"
+    "console-cleanup": "clean-console.cjs"
   },
   "files": [
     "clean-console.cjs",

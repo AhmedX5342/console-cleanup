@@ -1,17 +1,17 @@
-# clean-console
+# console-cleanup
 
 Removes `console.log(...)` and `console.warn(...)` statements (including ones that span multiple lines, contain nested calls, or use template literals) from `.js`, `.ts`, `.jsx`, and `.tsx` files.
 
 ## Installation
 
 ```bash
-npm install --save-dev clean-console
+npm install --save-dev console-cleanup
 ```
 
 ## Usage
 
 ```bash
-npx clean-console <file-or-name> [<file-or-name> ...]
+npx console-cleanup <file-or-name> [<file-or-name> ...]
 ```
 
 You can also run it directly from the project root:
@@ -28,7 +28,7 @@ Each argument can be:
 Example:
 
 ```bash
-npx clean-console src/hooks/testHook.ts CapaDetailView.tsx HomePage.tsx
+npx console-cleanup src/hooks/testHook.ts CapaDetailView.tsx HomePage.tsx
 ```
 
 If a bare name matches more than one file in the project, the script exits with an error listing matching files and asks you to rerun using the full relative path.
